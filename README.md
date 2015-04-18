@@ -26,3 +26,6 @@ This is perhaps the most common case user encounter, and the status message of *
 	* If yes, explain this to receiver
 * Provide an easy method for receiver to send current key to sender
 
+![Image of Mailpile missing key UX](images/missing-key-mailpile.png)
+
+* Visual missing key UX in [Mailpile](https://mailpile.is8)*
