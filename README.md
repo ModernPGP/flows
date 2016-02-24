@@ -2,6 +2,7 @@ UX Flows
 ========
 
 - [Encryption Flows](encryption.md)
+- [Decryption Flows](decryption.md)
 - [Signature Flows](signatures.md)
 
 
@@ -10,7 +11,6 @@ UX Flows
 
 UX Flows 
 Framework / schema of documenting ux that is friendly to design & devs
-
 
 
 Working Scenarios:
