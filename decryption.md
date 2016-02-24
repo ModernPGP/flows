@@ -1,4 +1,4 @@
-Decrypting Flows
+Decryption Flows
 ================
 
 These flows exist in respect to situations that arise while successfully or unsuccessfully **decrypting** data whereby a user does or does not contain private key.
