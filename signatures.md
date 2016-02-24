@@ -13,6 +13,23 @@ This case is relatively common and whereby a message was received with a PGP sig
 * Provide user action to manually go discover key
 * Provide option to manually import key
 
+#### Invalid Signature
+
+There is a case where the digital signature of data is "invalid" either due to corruption of data or the signature was created incorrectly. The first priority to communicate to the user is that the signature was invalid
+
+- ![Invalid message signature Whiteout mail](images/message-signature-details-whiteout.png)
+
+*In [Whiteout](https://whiteout.io) mail*
+
+- ![Invalid signature Mailpile](images/message-signature-details-mailpile.png)
+
+*In [Mailpile](https://mailpile.is)*
+
+User experience flows to help a user figure out how to resolve an invalid signature could be things like:
+
+* Download new version of client software
+* Ask the sender to resend / sign the data
+
 
 PGP Keys Flows
 ==============
