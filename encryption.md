@@ -1,7 +1,22 @@
 Encryption Flows
 ================
 
-These UX flows exist to help applications implement a more standardized and better user experience of interacting with PGP and the numerous situations that arise.
+These flows exist to help applications implement standardized user experiences in respect to numerous situations that arise while successfully or unsuccessfully **encrypting** data to one or more public keys!
+
+## Encrypt Message
+
+Encrypting a message usually happens in a messsage composer or reply window as part of a larger messaging client.
+
+- examples needed...
+
+## Encrypt File
+
+Encrypting a file is different from encrypting a message in that it is usually accessed via a file system, and thus is decoupled from the context of other messags or data. 
+
+- ![Encrypt file dialogue Gnome](images/encrypt-file-dialogue-gnome.png)
+
+*Encrypt file dialogue [Gnome](Encrypt file dialogue Gnome)*
+
 
 ## Can't Encrypt
 
@@ -15,19 +30,3 @@ There is the case where a user is trying to encrypt data and is unable to due to
 * Offer UI feedback that signals once encryption is possible
 
 
-## Can't Decrypt
-
-When the case arises that PGP encrypted data CANNOT be decrypted by a user, the reasons being usually one of the following
-
-#### Missing Key
-
-This is perhaps the most common case user encounter, and the status message of **missingkey** is misleading, as what it means is the the receiver is "missing" one of the "keys" to which the data was encrypted. The most common real world scenario of this happening is that the sender used a key owned by the recipient that is either expired, revoked, or has lost the private key.
-
-* Analyze the UID's of all the keys which data was encrypted to
-* Compare UID's if any of these values match receivers current key
-* * If yes, explain this to receiver
-* Provide an easy method for receiver to send current key to sender
-
-![Image of Mailpile missing key UX](images/missing-key-mailpile.png)
-
-* Visual missing key UX in [Mailpile](https://mailpile.is8)*
